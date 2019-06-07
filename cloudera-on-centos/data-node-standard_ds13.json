@@ -40,6 +40,7 @@
     {
       "name": "vm-with-datadisks",
       "type": "Microsoft.Resources/deployments",
+      "apiVersion": "2015-11-01",
       "properties": {
         "mode": "Incremental",
         "templateLink": {
