@@ -239,7 +239,7 @@
     "addressPrefix": "[parameters('addressPrefix')]",
     "subnetPrefix": "[parameters('subnetPrefix')]",
     "scriptsUriDescription": "For Command Line Deployment, scriptsUri must point to an Azure-accessible location like: https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/cloudera-on-centos",
-    "scriptsUri": "https://raw.githubusercontent.com/haroldwongms/azure-quickstart-templates/master/cloudera-on-centos",
+    "scriptsUri": "https://raw.githubusercontent.com/haroldwongms/azure-quickstart-templates/testrhelbyos/cloudera-on-centos",
     "share-resourcesUri": "[concat(variables('scriptsUri'), '/shared-resources-', parameters('vnetNewOrExisting'), '-vnet.json')]",
     "data-nodeUri": "[concat(variables('scriptsUri'), '/data-node-', toLower(subString(parameters('vmSize'), 0, 13)), '.json')]",
     "sa": "[parameters('masterNodeIPAddress')]",
